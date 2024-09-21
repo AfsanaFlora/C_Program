@@ -1,10 +1,11 @@
 1. What did you need to do to install the language?
+
 Since we're using VS Code, here’s the step-by-step installation process for C++:
 •	Install the C++ Compiler:
 o	For Windows: Download and install MinGW from its official website. During installation, select the packages for mingw32-gcc-g++ (C++ compiler). After installation, add the MinGW bin folder to the system's PATH environment variable.
 •	Set Up Visual Studio Code:
-1.	Download and install VS Code from the official website if you haven't already.
-2.	Install the C/C++ extension by Microsoft:
+  1.	Download and install VS Code from the official website if you haven't already.
+  2.	Install the C/C++ extension by Microsoft:
 	Open VS Code, click on the Extensions icon on the sidebar (or press Ctrl+Shift+X).
 	Search for "C/C++" and install the extension provided by Microsoft.
 2. Does this language come with a recommended programming environment?
