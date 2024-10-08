@@ -3,7 +3,7 @@
 A brief description of your C++ project, its features, and its purpose.
 
 ## Table of Contents
-- [Language Overview and Setup](#language-overview-and-setup)
+- [Language History, Overview and Setup](#language-overview-and-setup)
 - [Data Types and Syntax Conventions](#data-types-and-syntax-conventions)
 - [Control Flow](#control-flow)
 - [Functions and Parameters](#functions-and-parameters)
@@ -15,13 +15,43 @@ A brief description of your C++ project, its features, and its purpose.
 - [Usage](#usage)
 - 
 
-## Language Overview and Setup
+## Language History, Overview and Setup
 
 C++ is a powerful general-purpose programming language widely used for system/software development and game development. 
 
-Since we're using VS Code, here’s the step-by-step installation process for C++:
 
-### Installation 
+### History
+
+**Bjarne Stroustrup** founded C++ in Bell Laboratories in Murray Hill, New Jersey, in **1979**. It was created as an addition to the C programming language to strengthen **object-oriented programming** support and increase the effectiveness and adaptability of system and application development.
+
+
+### application
+
+C++ is primarily used for:
+     - **System programming** (operating systems, device drivers)
+     - **Application programming** (software applications, GUIs)
+     - **Game development** (high-performance games)
+     - **Embedded systems** (automobiles, appliances)
+     - **Real-time systems** (financial systems, telecommunications)
+
+### Sources for Learning and Reference Materials
+
+When starting to program in C++, I will refer to various resources, including:
+     - **Books:**
+       - "C++ Primer" by Stanley B. Lippman, Josée Lajoie, and Barbara E. Moo
+       - "Effective C++" by Scott Meyers
+     - **Websites:**
+       - [cplusplus.com](http://www.cplusplus.com) - A comprehensive resource for C++ tutorials and references
+       - [cppreference.com](https://en.cppreference.com) - A detailed reference for C++ standard libraries
+     - **Online courses:**
+       - Platforms like **Coursera** and **Udemy** offer C++ programming courses.
+     - **Forums and Communities:**
+       - Stack Overflow and the C++ subreddit are good places to ask questions and find solutions.
+
+
+## Since we're using VS Code, here’s the step-by-step installation process for C++:
+
+ ### Installation 
 1. **Install Visual Studio**:
    - Download from [Visual Studio](https://visualstudio.microsoft.com/).
    - Install the C/C++ extension by Microsoft:
@@ -30,7 +60,7 @@ Since we're using VS Code, here’s the step-by-step installation process for C+
 
 2. **Install the C++ Compiler**:
 
-Common preinstalled compilers on various systems are the <span style="color: blue;">Clang</span> tools with <span style="color: blue;">Xbox</span> on macOS and the <span style="color: blue;">GNU Compiler Collection (GCC) on Linux.
+Common preinstalled compilers on various systems are the **Clang** tools with **Xbox** on macOS and the **GNU Compiler Collection (GCC)** on Linux.
 
 TO check if you already have it in your PC:
  1. Open a new VS Code terminal window using (Ctrl+Shift+`)
@@ -66,7 +96,7 @@ C++ does not have a specific recommended IDE, but Visual Studio Code is an excel
 In VS Code, after writing the program, you can follow these steps:
 
   1.	Write the C++ code:
-	   * Create a new file, and name it `hello_world.cpp`.
+	 * Create a new file, and name it `hello_world.cpp`.
      * Write your C++ code inside this file.
 
   2.	Set up the build task (to compile C++ programs):
@@ -171,3 +201,5 @@ int main() {
     return 0;
 }
 ```
+
+
