@@ -37,12 +37,15 @@ C++ is primarily used for:
 ### Sources for Learning and Reference Materials
 
 When starting to program in C++, I will refer to various resources, including:
+
 **Books:**
  - "C++ Primer" by Stanley B. Lippman, Josée Lajoie, and Barbara E. Moo
  - "Effective C++" by Scott Meyers
+
 **Websites:**
  - [cplusplus.com](http://www.cplusplus.com) - A comprehensive resource for C++ tutorials and references
  - [cppreference.com](https://en.cppreference.com) - A detailed reference for C++ standard libraries
+ 
 **Online courses:**
  - Platforms like **Coursera** and **Udemy** offer C++ programming courses.
  - **Forums and Communities:**
