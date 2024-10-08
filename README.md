@@ -13,7 +13,7 @@ A brief description of your C++ project, its features, and its purpose.
 - [Final Programming Project and Presentations](#final-programming-project-and-presentations)
 - [Installation](#installation)
 - [Usage](#usage)
-- 
+
 
 ## Language History, Overview and Setup
 
@@ -28,25 +28,25 @@ C++ is a powerful general-purpose programming language widely used for system/so
 ### application
 
 C++ is primarily used for:
-     - **System programming** (operating systems, device drivers)
-     - **Application programming** (software applications, GUIs)
-     - **Game development** (high-performance games)
-     - **Embedded systems** (automobiles, appliances)
-     - **Real-time systems** (financial systems, telecommunications)
+  * **System programming** (operating systems, device drivers)
+  * **Application programming** (software applications, GUIs)
+  * **Game development** (high-performance games)
+  * **Embedded systems** (automobiles, appliances)
+  * **Real-time systems** (financial systems, telecommunications)
 
 ### Sources for Learning and Reference Materials
 
 When starting to program in C++, I will refer to various resources, including:
-     - **Books:**
-       - "C++ Primer" by Stanley B. Lippman, Josée Lajoie, and Barbara E. Moo
-       - "Effective C++" by Scott Meyers
-     - **Websites:**
-       - [cplusplus.com](http://www.cplusplus.com) - A comprehensive resource for C++ tutorials and references
-       - [cppreference.com](https://en.cppreference.com) - A detailed reference for C++ standard libraries
-     - **Online courses:**
-       - Platforms like **Coursera** and **Udemy** offer C++ programming courses.
-     - **Forums and Communities:**
-       - Stack Overflow and the C++ subreddit are good places to ask questions and find solutions.
+    **Books:**
+     - "C++ Primer" by Stanley B. Lippman, Josée Lajoie, and Barbara E. Moo
+     - "Effective C++" by Scott Meyers
+    **Websites:**
+    - [cplusplus.com](http://www.cplusplus.com) - A comprehensive resource for C++ tutorials and references
+    - [cppreference.com](https://en.cppreference.com) - A detailed reference for C++ standard libraries
+    **Online courses:**
+    - Platforms like **Coursera** and **Udemy** offer C++ programming courses.
+    - **Forums and Communities:**
+    Stack Overflow and the C++ subreddit are good places to ask questions and find solutions.
 
 
 ## Since we're using VS Code, here’s the step-by-step installation process for C++:
