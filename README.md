@@ -10,7 +10,7 @@ A brief description of  C++, its features, and its purpose.
 - [Naming Conventions in C++](#naming-conventions-in-c)
 - [Data Types and Syntax Conventions](#data-types-and-syntax-conventions)
 - [Control Flow](#control-flow)
-- [Functions and Parameters](#functions-and-parameters-and-parameters)
+- [Functions and Parameters](#functions-and-parameters)
 - [Pass-by-Reference vs Pass-by-Value in C++](#pass-by-reference-vs-pass-by-value-in-c)
 - [Limitations of C++](#limitations-of-c)
 - [Refrences](#reference)
