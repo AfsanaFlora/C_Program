@@ -13,6 +13,7 @@ A brief description of your C++ project, its features, and its purpose.
 - [Functions and Parameters](#functions-and-parameters-and-parameters)
 - [Pass-by-Reference vs Pass-by-Value in C++](#pass-by-reference-vs-pass-by-value-in-c)
 - [Limitations of C++](#limitations-of-c)
+- [Refrences](#reference)
 
 
 ## Language History, Overview and Setup
@@ -25,7 +26,7 @@ C++ is a powerful general-purpose programming language widely used for system/so
 **Bjarne Stroustrup** founded C++ in Bell Laboratories in Murray Hill, New Jersey, in **1979**. It was created as an addition to the C programming language to strengthen **object-oriented programming** support and increase the effectiveness and adaptability of system and application development.
 
 
-### application
+### Application
 
 C++ is primarily used for:
   * **System programming** (operating systems, device drivers)
@@ -39,8 +40,8 @@ C++ is primarily used for:
 When starting to program in C++, I will refer to various resources, including:
 
 **Books:**
- - "C++ Primer" by Stanley B. Lippman, Josée Lajoie, and Barbara E. Moo
- - "Effective C++" by Scott Meyers
+ - **"C++ Primer"** by *Stanley B. Lippman*, *Josée Lajoie*, and *Barbara E. Moo*
+ - **"Effective C++"** by *Scott Meyers*
 
 **Websites:**
  - [cplusplus.com](http://www.cplusplus.com) - A comprehensive resource for C++ tutorials and references
@@ -49,7 +50,8 @@ When starting to program in C++, I will refer to various resources, including:
 **Online courses:**
  - Platforms like **Coursera** and **Udemy** offer C++ programming courses.
  - **Forums and Communities:**
- Stack Overflow and the C++ subreddit are good places to ask questions and find solutions.
+ *Stack Overflow* and the *C++ subreddit* are good places to ask questions and find solutions.
+
 
 
 ## Since we're using VS Code, here’s the step-by-step installation process for C++:
@@ -94,6 +96,7 @@ If it's not available, follow the instructions in the section below to install a
   Watch the [GCC tutorial](https://code.visualstudio.com/docs/cpp/config-clang-mac#_prerequisites).
 
 
+
 ## Getting Started
 
 C++ does not have a specific recommended IDE, but Visual Studio Code is an excellent choice due to its flexibility and lightweight nature. You’ll use the C/C++ extension for IntelliSense and debugging.
@@ -127,6 +130,9 @@ int main() {
     return 0;
 } 
 ```
+
+
+
 ## Writing Comments
 
 In C++, you can write comments in two ways:
@@ -143,6 +149,7 @@ In C++, you can write comments in two ways:
    multi-line comment */
 ```
 
+
 ## Naming Conventions in C++
 
 **Case Sensitivity**: C++ is case-sensitive, so `myVariable` and `MyVariable` are different.
@@ -150,6 +157,7 @@ In C++, you can write comments in two ways:
 **Starting Character**: Variable names must start with a letter or an underscore. They cannot start with a digit or special symbols like `@`, `#`, `$`.
 
 **Camel Case vs. Snake Case**: It’s common to see both camelCase (`lastName`) and snake_case (`last_name`) in C++, but camelCase is often preferred in many C++ coding standards.
+
 
 
 ## Data Types and Syntax Conventions
@@ -251,7 +259,7 @@ Before you begin learning or working with a programming language, there are some
 
 * **Explicitly typed**: C++ is explicitly typed, meaning you must explicitly declare the type of each variable when you create it.
 
-## Example of a Type Error
+### Example of a Type Error
 If you write this in C++:
 
 ```cpp
@@ -264,6 +272,7 @@ It will result in a compilation error because C++ does not implicitly convert be
 std::string x = "5" + std::to_string(6); // Correct way
 ```
 
+
 ## Limitations of C++
 
 * **Adding Ints and Floats**: Adding `int` and `float` is allowed, and the result will be a `float`.
@@ -272,9 +281,9 @@ std::string x = "5" + std::to_string(6); // Correct way
 
 * **Implicit vs Explicit Conversions**: Conversions like `int` to `float` are implicit, but `string` to `int` requires an explicit conversion.
 
-
 ### Complex Data Types
 C++ has complex data types such as `std::vector`, `std::map` and `std::pair`, which are commonly used for storing collections and mapping relationships.
+
 
 
 ## Control Flow
@@ -333,6 +342,7 @@ int main() {
     return 0;
 }
 ```
+
 
 ## Functions and Parameters
 Functions in C++ are code blocks that carry out a specific goal. A function can operate with different types of data by accepting parameters as input values.
@@ -393,13 +403,11 @@ int multiply(int a, int b) {
     return a * b;
 }
 ```
-
 This function accepts two integer parameters (a and b) and computes the product of the said parameters. This is a flexibility you have while using this kind of function; you can call this function any number of times using different values.
+
 
 ## Recursive Function
 C++ can use Recursion - it is the ability of a function to call that same function in its code. Recursion is often used for problems such as finding the factorial of a number for example.
-
-
 
 ***Example: Recursive Factorial Function***
 
@@ -413,6 +421,7 @@ int factorial(int n) {
 ```
 
 This function calculates the factorial of n by calling itself with `n - 1` until it reaches the base case where `n == 0`.
+
 
 ## Function Returning Multiple Values
 
@@ -522,4 +531,24 @@ Local variables are stored on `stack`, it is the memory area for calling of func
 **Overloading**: C++ supports function overloading, where multiple functions can have the same name but different parameter lists.
 
 **Default Parameters**: You can specify default values for function parameters, allowing you to call a *function* with fewer *arguments*.
+
+
+## Reference
+
+https://code.visualstudio.com/docs/languages/cpp
+
+https://en.wikipedia.org/wiki/C%2B%2B#:~:text=Before%20the%20initial%20standardization%20in,level%20features%20for%20program%20organization.
+
+https://www.w3schools.com/cpp/cpp_getstarted.asp
+
+https://cplusplus.com/doc/tutorial/
+
+https://www.tutorialspoint.com/cplusplus/cpp_quick_guide.htm
+
+https://cplusplus.com/
+
+https://en.cppreference.com/w/
+
+https://visualstudio.microsoft.com/
+
 
