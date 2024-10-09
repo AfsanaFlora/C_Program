@@ -506,10 +506,10 @@ C++ supports both, pass and call by reference, although call by reference is the
 *Arguments*, *parameters*, and *local variables* are typically stored on the `stack`, which is faster and automatically managed in terms of scope and lifetime. If you allocate memory dynamically (e.g., with **new**), it is stored on the `heap`, and you must manage the memory manually.
 
 **Scoping Rules**
- * Global Variables: Global in default, can be overridden at local scope in the course of the program.
- * Local Variables: Available only within the block where they are defined.
+ * **Global Variables**: Global in default, can be overridden at local scope in the course of the program.
+ * **Local Variables**: Available only within the block where they are defined.
  Function Scope: Any variable declared within a particular function, becomes the function’s local variable.
- * Lifetime: Local variables are defined as those variables that exist only while the particular function or block of code is executing. Global variables are valid only for the period that the program is running.
+ * **Lifetime**: Local variables are defined as those variables that exist only while the particular function or block of code is executing. Global variables are valid only for the period that the program is running.
 
 **Side Effects**
 Side effects (when a `function` changes some element in the surrounding environment, for instance, using global variables or passing arguments by reference) are possible. Declared with `const`, it has advantages that protect some variables and objects from being modified in other parts of a program.
