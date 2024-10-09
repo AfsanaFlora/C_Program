@@ -7,11 +7,11 @@ A brief description of your C++ project, its features, and its purpose.
 - [Installation](#installation)
 - [Getting Started](#getting-started)
 - [Writing Comments](#writing-comments)
-- [Naming Conventions in C++](#naming-conventions-in-c++)
+- [Naming Conventions in C++](#naming-conventions-in-c)
 - [Data Types and Syntax Conventions](#data-types-and-syntax-conventions)
 - [Control Flow](#control-flow)
-- [Functions and Parameters](#functions-and-parameters)
-- [Pass-by-Reference vs Pass-by-Value in C++](#pass-by-reference-vs-pass-by-value-in-cass-by-Reference-vs-Pass-by-Value-in-c++)
+- [Functions and Parameters](#functions-and-parameters-and-parameters)
+- [Pass-by-Reference vs Pass-by-Value in C++](#pass-by-reference-vs-pass-by-value-in-c)
 - [Limitations of C++](#limitations-of-c)
 
 
