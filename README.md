@@ -334,7 +334,7 @@ int main() {
 }
 ```
 
-## Functions and Parameter
+## Functions and Parameters
 Functions in C++ are code blocks that carry out a specific goal. A function can operate with different types of data by accepting parameters as input values.
 
 ### Function Syntax:
@@ -369,7 +369,7 @@ int main() {
 }
 ```
 
- ## Function Declaration Syntax in C++
+ ### Function Declaration Syntax in C++
 In C++, the syntax for declaring a function is straightforward:
 
 ```cpp
@@ -508,7 +508,7 @@ C++ supports both, pass and call by reference, although call by reference is the
 **Scoping Rules**
  * **Global Variables**: Global in default, can be overridden at local scope in the course of the program.
  * **Local Variables**: Available only within the block where they are defined.
- Function Scope: Any variable declared within a particular function, becomes the function’s local variable.
+ * **Function Scope**: Any variable declared within a particular function, becomes the function’s local variable.
  * **Lifetime**: Local variables are defined as those variables that exist only while the particular function or block of code is executing. Global variables are valid only for the period that the program is running.
 
 **Side Effects**
