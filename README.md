@@ -1,6 +1,6 @@
 # C++ Project Title
 
-A brief description of your C++ project, its features, and its purpose.
+A brief description of  C++, its features, and its purpose.
 
 ## Table of Contents
 - [Language History, Overview and Setup](#language-history-overview-and-setup)
@@ -281,9 +281,7 @@ std::string x = "5" + std::to_string(6); // Correct way
 
 * **Implicit vs Explicit Conversions**: Conversions like `int` to `float` are implicit, but `string` to `int` requires an explicit conversion.
 
-### Complex Data Types
-C++ has complex data types such as `std::vector`, `std::map` and `std::pair`, which are commonly used for storing collections and mapping relationships.
-
+* **Complex Data Types**: C++ has complex data types such as `std::vector`, `std::map` and `std::pair`, which are commonly used for storing collections and mapping relationships.
 
 
 ## Control Flow
@@ -296,7 +294,7 @@ Control flow statements allow you to dictate the order of execution in your prog
 
 ### Example of Control Flow
 
-**Example of `if` statement**:
+**Example of *if* statement**:
 
 ```cpp
 if (number > 0) {
@@ -307,7 +305,7 @@ if (number > 0) {
 ```
 
 
-**Example of `switch` statement**:
+**Example of *switch* statement**:
 ```cpp
 int main() {
     int day = 2;
@@ -330,7 +328,7 @@ int main() {
 }
 ```
 
-**Example of `Loop`**:
+**Example of *Loop***:
 
 ```cpp
 int main() {
