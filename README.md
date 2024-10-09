@@ -11,8 +11,8 @@ A brief description of your C++ project, its features, and its purpose.
 - [Data Types and Syntax Conventions](#data-types-and-syntax-conventions)
 - [Control Flow](#control-flow)
 - [Functions and Parameters](#functions-and-parameters)
-- [Pass-by-Reference vs Pass-by-Value in C++](#pass-by-reference-vs-pass-by-value-in-c++)
-- [Limitations of C++](#limitations-of-c++)
+- [Pass-by-Reference vs Pass-by-Value in C++](#Pass-by-Reference-vs-Pass-by-Value-in-c++)
+- [Limitations of C++](#limitations-of-C++)
 
 
 ## Language History, Overview and Setup
