@@ -3,16 +3,16 @@
 A brief description of your C++ project, its features, and its purpose.
 
 ## Table of Contents
-- [Language History, Overview and Setup](#language-overview-and-setup)
+- [Language History, Overview and Setup](#language-history-overview-and-setup)
+- [Installation](#installation)
+- [Getting Started](#getting-started)
+- [Writing Comments](#writing-comments)
+- [Naming Conventions in C++](#naming-conventions-in-c++)
 - [Data Types and Syntax Conventions](#data-types-and-syntax-conventions)
 - [Control Flow](#control-flow)
 - [Functions and Parameters](#functions-and-parameters)
-- [Naming, Scope, and Bindings](#naming-scope-and-bindings)
-- [Plan for Final Project Programming Task](#plan-for-final-project-programming-task)
-- [Check-in for Final Project](#check-in-for-final-project)
-- [Final Programming Project and Presentations](#final-programming-project-and-presentations)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Pass-by-Reference vs Pass-by-Value in C++](#pass-by-reference-vs-pass-by-value-in-c++)
+- [Limitations of C++](#limitations-of-c++)
 
 
 ## Language History, Overview and Setup
