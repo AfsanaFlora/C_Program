@@ -594,4 +594,7 @@ https://en.cppreference.com/w/
 
 https://visualstudio.microsoft.com/
 
+https://en.cppreference.com/w/
+
+"C++ Primer" by Stanley B. Lippman, et al.
 
