@@ -272,6 +272,28 @@ It will result in a compilation error because C++ does not implicitly convert be
 std::string x = "5" + std::to_string(6); // Correct way
 ```
 
+### Short-Circuit Evaluation
+C++ supports short-circuit evaluation for logical operators. For instance, in an expression like if (x > 0 && y < 10), if x > 0 is false, the condition y < 10 will not be evaluated.
+
+**Example of Short-Circuit Logic:**
+
+```cpp
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 0;
+    int y = 5;
+
+    if (x != 0 && (y / x) > 1) { // The second condition will not be evaluated
+        cout << "This won't print." << endl;
+    } else {
+        cout << "Short-circuit evaluation works!" << endl; // This will print
+    }
+    return 0;
+}
+```
 
 ## Limitations of C++
 
