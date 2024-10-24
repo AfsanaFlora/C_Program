@@ -1,4 +1,4 @@
-# C++ Project Title
+# C++ Language Tutorial
 
 A brief description of  C++, its features, and its purpose.
 
