@@ -331,10 +331,33 @@ int main() {
 **Example of *Loop***:
 
 ```cpp
+#include <iostream>
+using namespace std;
+
 int main() {
-    // Loop to print numbers from 1 to 5
-    for (int i = 1; i <= 5; i++) {
-        cout << "Number: " << i << endl;
+    // While Loop
+    int count = 0;
+    while (count < 3) {
+        cout << "While Loop Count: " << count << endl;
+        count++;
+    }
+
+    // Do/While Loop
+    count = 0;
+    do {
+        cout << "Do/While Loop Count: " << count << endl;
+        count++;
+    } while (count < 3);
+
+    // For Loop
+    for (int i = 0; i < 3; i++) {
+        cout << "For Loop Count: " << i << endl;
+    }
+
+    // Range-based For Loop
+    int arr[] = {1, 2, 3};
+    for (int num : arr) {
+        cout << "Range-based For Loop: " << num << endl;
     }
 
     return 0;
