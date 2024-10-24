@@ -35,6 +35,7 @@ C++ is primarily used for:
   * **Embedded systems** (automobiles, appliances)
   * **Real-time systems** (financial systems, telecommunications)
 
+
 ### Sources for Learning and Reference Materials
 
 When starting to program in C++, I will refer to various resources, including:
@@ -157,6 +158,56 @@ In C++, you can write comments in two ways:
 **Starting Character**: Variable names must start with a letter or an underscore. They cannot start with a digit or special symbols like `@`, `#`, `$`.
 
 **Camel Case vs. Snake Case**: It’s common to see both camelCase (`lastName`) and snake_case (`last_name`) in C++, but camelCase is often preferred in many C++ coding standards.
+
+
+## Operators:
+Operators in C++
+In C++, operators are special symbols or keywords used to perform operations on variables and values. They are the foundation for manipulating data and controlling the flow of programs. C++ supports a variety of operators, including:
+
+**1. Arithmetic Operators:** Used to perform mathematical operations.
+
+`+` (Addition)
+`-` (Subtraction)
+`*` (Multiplication)
+`/` (Division)
+`%` (Modulus)
+
+**2. Relational Operators:** Compare two values and return a boolean result.
+
+`==` (Equal to)
+`!=` (Not equal to)
+`<` (Less than)
+`>` (Greater than)
+`<=` (Less than or equal to)
+`>=` (Greater than or equal to)
+
+**3. Logical Operators:** Perform logical operations on expressions.
+
+`&&` (Logical AND)
+`||` (Logical OR)
+`!` (Logical NOT)
+
+**4. Assignment Operators:** Assign values to variables.
+
+`=` (Assign)
+`+=` (Add and assign)
+`-=` (Subtract and assign)
+`*=` (Multiply and assign)
+`/=` (Divide and assign)
+
+**5. Increment and Decrement Operators:** Increase or decrease a variable’s value by 1.
+
+`++` (Increment)
+`--` (Decrement)
+
+**6. Bitwise Operators:** Perform operations at the bit level.
+
+`&` (AND)
+`|` (OR)
+`^` (XOR)
+`~` (NOT)
+`<<` (Left shift)
+`>>` (Right shift)
 
 
 
