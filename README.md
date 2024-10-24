@@ -272,7 +272,9 @@ It will result in a compilation error because C++ does not implicitly convert be
 std::string x = "5" + std::to_string(6); // Correct way
 ```
 
-### Short-Circuit Evaluation
+
+
+## Short-Circuit Evaluation
 C++ supports short-circuit evaluation for logical operators. For instance, in an expression like if (x > 0 && y < 10), if x > 0 is false, the condition y < 10 will not be evaluated.
 
 **Example of Short-Circuit Logic:**
