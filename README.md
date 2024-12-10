@@ -777,6 +777,11 @@ public:
 };
 ```
 
+```csharp
+From A
+From B
+```
+
 ### Creating and Testing Objects & Inheritance
 Here’s how you can create and test objects, attributes, functions, and inheritance in C++.
 
@@ -815,6 +820,11 @@ int main() {
     student.display(); // Calls Student's display
     return 0;
 }
+```
+
+```csharp
+Name: Alice, Age: 30
+Name: Bob, Age: 20, School: XYZ University
 ```
 
 ### Important notes about objects and inheritance
