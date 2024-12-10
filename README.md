@@ -639,7 +639,7 @@ C++ does not enforce strict naming conventions, but developers often follow comm
 * **Constants:** Use **ALL_CAPS** with underscores (e.g., `MAX_AGE`).
 Global variables are generally avoided or prefixed with `g_`.
 
-###Standard Methods for object:
+### Standard Methods for object:
 C++ does not have a predefined `toString()` method, but it achieves similar functionality through *overloading the* `operator<<` for objects. This allows a custom way to print the object's information when using `std::cout`.
 
 
