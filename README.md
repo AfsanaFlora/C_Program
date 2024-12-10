@@ -3,17 +3,24 @@
 A brief description of  C++, its features, and its purpose.
 
 ## Table of Contents
-- [Language History, Overview and Setup](#language-history-overview-and-setup)
-- [Installation](#installation)
-- [Getting Started](#getting-started)
-- [Writing Comments](#writing-comments)
-- [Naming Conventions in C++](#naming-conventions-in-c)
-- [Data Types and Syntax Conventions](#data-types-and-syntax-conventions)
-- [Control Flow](#control-flow)
-- [Functions and Parameters](#functions-and-parameters)
-- [Pass-by-Reference vs Pass-by-Value in C++](#pass-by-reference-vs-pass-by-value-in-c)
-- [Limitations of C++](#limitations-of-c)
-- [Refrences](#reference)
+1. [Language History, Overview and Setup](#language-history-overview-and-setup)
+2. [Installation](#installation)
+3. [Getting Started](#getting-started)
+4. [Core Concepts](#core-concepts)
+    - [Writing Comments](#writing-comments)
+    - [Naming Conventions in C++](#naming-conventions-in-c)
+    - [Data Types and Syntax Conventions](#data-types-and-syntax-conventions)
+    - [Explanation of Code](#explanation-of-code)
+    - [Type Error](#type-error)
+    - [Short Circuit Evaluation](#short-circuit-evaluation)
+    - [Limitations of C++](#limitations-of-c)
+    - [Control Flow](#control-flow)
+5. [Functions and Parameters](#functions-and-parameters)
+6. [Pass-by-Reference vs Pass-by-Value in C++](#pass-by-reference-vs-pass-by-value-in-c)
+7. [Limitations of C++](#limitations-of-c)
+8. [Overview of Object-Oriented Features in C++](#overview-of-object-oriented-features-in-c) 
+9. [Refrences](#reference)
+
 
 
 ## Language History, Overview and Setup
@@ -132,9 +139,9 @@ int main() {
 } 
 ```
 
+## Core Concepts
 
-
-## Writing Comments
+### Writing Comments
 
 In C++, you can write comments in two ways:
 * **Single-line comments**: Use // at the beginning of the line.
@@ -151,7 +158,7 @@ In C++, you can write comments in two ways:
 ```
 
 
-## Naming Conventions in C++
+### Naming Conventions in C++
 
 **Case Sensitivity**: C++ is case-sensitive, so `myVariable` and `MyVariable` are different.
 
@@ -160,7 +167,7 @@ In C++, you can write comments in two ways:
 **Camel Case vs. Snake Case**: It’s common to see both camelCase (`lastName`) and snake_case (`last_name`) in C++, but camelCase is often preferred in many C++ coding standards.
 
 
-## Operators:
+### Operators:
 Operators in C++
 In C++, operators are special symbols or keywords used to perform operations on variables and values. They are the foundation for manipulating data and controlling the flow of programs. C++ supports a variety of operators, including:
 
@@ -211,7 +218,7 @@ In C++, operators are special symbols or keywords used to perform operations on 
 
 
 
-## Data Types and Syntax Conventions
+### Data Types and Syntax Conventions
 
 - `int`: Integer data type.
 - `float`: Floating-point data type.
@@ -222,7 +229,7 @@ In C++, operators are special symbols or keywords used to perform operations on 
 - `std::vector`: Stores a list of elements of the same type.
 - `std::map`: Stores key-value pairs, similar to a dictionary in other languages
 
-### Syntax Example
+***Syntax Example***
 ```cpp
 #include <iostream>
 #include <string>
@@ -289,7 +296,7 @@ int main() {
 **Type Conversion**:
  C++ supports both implicit (automatic) and explicit (manual) type conversions. For example, dividing two integers will result in an integer unless you explicitly cast one of them to float for floating-point division.
 
-## Important Notes:
+### Important Notes:
 Before you begin learning or working with a programming language, there are some key points you need to understand:
 
 * **Keywords or Reserved Words**: C++ has 97 reserved keywords (e.g., `int`, `float`, `if`, `while`, `return`), which cannot be used as variable names.
@@ -304,7 +311,8 @@ Before you begin learning or working with a programming language, there are some
 
 * **Explicitly typed**: C++ is explicitly typed, meaning you must explicitly declare the type of each variable when you create it.
 
-### Example of a Type Error
+
+### Type Error
 If you write this in C++:
 
 ```cpp
@@ -317,15 +325,12 @@ It will result in a compilation error because C++ does not implicitly convert be
 std::string x = "5" + std::to_string(6); // Correct way
 ```
 
-
-
-## Short-Circuit Evaluation
+### Short-Circuit Evaluation
 C++ supports short-circuit evaluation for logical operators. For instance, in an expression like if (x > 0 && y < 10), if x > 0 is false, the condition y < 10 will not be evaluated.
 
-**Example of Short-Circuit Logic:**
+***Example of Short-Circuit Logic:***
 
 ```cpp
-
 #include <iostream>
 using namespace std;
 
@@ -342,7 +347,7 @@ int main() {
 }
 ```
 
-## Limitations of C++
+### Limitations of C++
 
 * **Adding Ints and Floats**: Adding `int` and `float` is allowed, and the result will be a `float`.
 
@@ -353,7 +358,7 @@ int main() {
 * **Complex Data Types**: C++ has complex data types such as `std::vector`, `std::map` and `std::pair`, which are commonly used for storing collections and mapping relationships.
 
 
-## Control Flow
+### Control Flow
 Control flow statements allow you to dictate the order of execution in your program. Common statements include:
 
 * If statements
@@ -621,6 +626,206 @@ Local variables are stored on `stack`, it is the memory area for calling of func
 **Overloading**: C++ supports function overloading, where multiple functions can have the same name but different parameter lists.
 
 **Default Parameters**: You can specify default values for function parameters, allowing you to call a *function* with fewer *arguments*.
+
+## Overview of Object-Oriented Features in C++
+
+Yes, C++ fully supports objects as it is an object-oriented programming language. Objects in C++ are instances of *classes*, which define the attributes (data members) and behaviors (member functions) that the objects can have. C++ also supports *structs*, but in modern C++, classes are more commonly used for creating objects with encapsulation.
+
+### Naming conventions for objects, instance variables, or functions in C++
+C++ does not enforce strict naming conventions, but developers often follow community-adopted best practices:
+* **Class names:** Use **PascalCase** (e.g., `Person`, `Student`).
+* **Instance variables:** Use a lowercase initial or prefix with _ (e.g., `_age`, `name`).
+* **Member functions:** Use *camelCase* (e.g., `getName`, `setAge`).
+* **Constants:** Use **ALL_CAPS** with underscores (e.g., `MAX_AGE`).
+Global variables are generally avoided or prefixed with `g_`.
+
+###Standard Methods for object:
+C++ does not have a predefined `toString()` method, but it achieves similar functionality through *overloading the* `operator<<` for objects. This allows a custom way to print the object's information when using `std::cout`.
+
+
+***Example:***
+```cpp
+#include <iostream>
+#include <string>
+
+class Person {
+    std::string name;
+    int age;
+public:
+    Person(std::string name, int age) : name(name), age(age) {}
+
+    // Overloading the << operator for printing
+    friend std::ostream& operator<<(std::ostream& os, const Person& person) {
+        os << "Name: " << person.name << ", Age: " << person.age;
+        return os;
+    }
+};
+
+int main() {
+    Person person("Alice", 30);
+    std::cout << person << std::endl;
+    return 0;
+}
+```
+
+### Inheritance in C++
+C++ supports **inheritance**, allowing one class (child) to inherit attributes and behaviors from another class (parent). C++ also supports **multiple inheritance**, where a class can inherit from multiple base classes.
+
+**Basic syntax for single inheritance:**
+```cpp
+#include <iostream>
+
+// Base class
+class Animal {
+public:
+    void eat() {
+        std::cout << "This animal is eating." << std::endl;
+    }
+};
+
+// Derived class
+class Dog : public Animal {
+public:
+    void bark() {
+        std::cout << "The dog is barking." << std::endl;
+    }
+};
+
+int main() {
+    Dog myDog;
+    myDog.eat();  // Inherited from Animal
+    myDog.bark(); // Defined in Dog
+    return 0;
+}
+```
+
+**Output**
+```csharp
+This animal is eating.
+The dog is barking.
+```
+
+**Syntax for multiple inheritance:**
+```cpp
+#include <iostream>
+
+// Base class 1
+class Walker {
+public:
+    void walk() {
+        std::cout << "This person is walking." << std::endl;
+    }
+};
+
+// Base class 2
+class Talker {
+public:
+    void talk() {
+        std::cout << "This person is talking." << std::endl;
+    }
+};
+
+// Derived class
+class Human : public Walker, public Talker {
+public:
+    void introduce() {
+        std::cout << "I can both walk and talk!" << std::endl;
+    }
+};
+
+int main() {
+    Human person;
+    person.walk();      // Inherited from Walker
+    person.talk();      // Inherited from Talker
+    person.introduce(); // Defined in Human
+    return 0;
+}
+```
+
+**Output**
+```csharp
+This person is walking.
+This person is talking.
+I can both walk and talk!
+```
+
+### Method overloading and how to resolve those calls?
+C++ supports **method overloading** (functions with the same name but different parameters) and method overriding (redefining a base class function in a derived class).
+If there are name conflicts due to multiple inheritance, **scope resolution operator (::)** is used to specify which base class function to call:
+
+```cpp
+class A {
+public:
+    void show() {
+        std::cout << "From A" << std::endl;
+    }
+};
+
+class B {
+public:
+    void show() {
+        std::cout << "From B" << std::endl;
+    }
+};
+
+class C : public A, public B {
+public:
+    void display() {
+        A::show(); // Calls show() from class A
+        B::show(); // Calls show() from class B
+    }
+};
+```
+
+### Creating and Testing Objects & Inheritance
+Here’s how you can create and test objects, attributes, functions, and inheritance in C++.
+
+```cpp
+#include <iostream>
+#include <string>
+
+// Base class
+class Person {
+protected:
+    std::string name;
+    int age;
+public:
+    Person(std::string name, int age) : name(name), age(age) {}
+    void display() {
+        std::cout << "Name: " << name << ", Age: " << age << std::endl;
+    }
+};
+
+// Derived class
+class Student : public Person {
+private:
+    std::string school;
+public:
+    Student(std::string name, int age, std::string school) : Person(name, age), school(school) {}
+    void display() {
+        std::cout << "Name: " << name << ", Age: " << age << ", School: " << school << std::endl;
+    }
+};
+
+int main() {
+    Person person("Alice", 30);
+    Student student("Bob", 20, "XYZ University");
+
+    person.display(); // Calls Person's display
+    student.display(); // Calls Student's display
+    return 0;
+}
+```
+
+### Important notes about objects and inheritance
+
+* **Access Specifiers:** Use `public`, `protected`, and `private` to control access to class members.
+* **Polymorphism:** Use virtual functions for runtime method resolution.
+* **Abstract Classes:** Classes with pure virtual functions (e.g., `virtual void func() = 0;`) act as interfaces.
+* **Smart Pointers:** Use `std::shared_ptr` or `std::unique_ptr` for memory management when creating objects dynamically.
+
+
+C++ provides robust support for object-oriented programming, but developers must handle memory management and complexities like multiple inheritance carefully.
 
 
 ## Reference
