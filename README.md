@@ -777,6 +777,7 @@ public:
 };
 ```
 
+**Output**
 ```csharp
 From A
 From B
@@ -822,6 +823,7 @@ int main() {
 }
 ```
 
+**Output**
 ```csharp
 Name: Alice, Age: 30
 Name: Bob, Age: 20, School: XYZ University
