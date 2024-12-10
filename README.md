@@ -202,12 +202,12 @@ In C++, operators are special symbols or keywords used to perform operations on 
 
 **6. Bitwise Operators:** Perform operations at the bit level.
 
-`&` (AND)
-`|` (OR)
-`^` (XOR)
-`~` (NOT)
-`<<` (Left shift)
-`>>` (Right shift)
+- `&` (AND)
+- `|` (OR)
+- `^` (XOR)
+- `~` (NOT)
+- `<<` (Left shift)
+- `>>` (Right shift)
 
 
 
@@ -294,17 +294,11 @@ Before you begin learning or working with a programming language, there are some
 
 * **Keywords or Reserved Words**: C++ has 97 reserved keywords (e.g., `int`, `float`, `if`, `while`, `return`), which cannot be used as variable names.
 
-* **Variable Naming Requirements**: In C++, variable names must begin with a letter or an underscore. They cannot start with a number or special characters. Although `camelCase` or `snake_case` is a style choice, it's not enforced by the compiler, only by community standards.
-
 * **Statically Typed**: C++ is a *statically-typed* language, meaning variable types are determined at compile time.
 
 * **Strongly Typed**: C++ is *strongly typed*, meaning it requires explicit type conversion when types do not match.
 
 * **Mutability**: Most variables in C++ are *mutable* by default, but you can make them *immutable* using the const keyword.
-
-* **Operators**: Operators such as `+`, `-`, `*` and `/` work with numeric types, while `==`, `!=`, `&&` and `||` apply to boolean logic.
-
-* **Mixed Type Operations**: C++ supports mixed-type operations. The result usually depends on the types involved; for example, adding `int` and `float` results in a `float`.
 
 * **Binding of Variables and Operators**: Variable names and their types are bound during compilation in C++, and operators like `+` or `*` are also bound to the types they operate on at compile time.
 
